@@ -53,11 +53,11 @@ Dacă totul decurge perfect, browser-ul implicit de pe calculatorul Dv. va fi la
 
 ![Img. 2](/images/poza2.jpg)
 
-Observație: *index.html* este denumirea implicită a paginii principale a unui site web. Din acest motiv în caseta de adrese a browser-ului nu apare denumirea paginii încărcate ci numai adresa din internet de unde a fost preluată. Adresa localhost se referă la propriul calculator. La pornirea serverului de web, în fereastra Command prompt aveți pentru site-ului accesat două adrese, localhost și o adresă în care se folosesc 4 numere, ca în imaginea următoare:
+Observație: *index.html* este denumirea implicită a paginii principale a unui site web. Din acest motiv în caseta de adrese a browser-ului nu apare denumirea paginii încărcate ci numai adresa din internet de unde a fost preluată. Adresa localhost se referă la propriul calculator. La pornirea serverului de web, în fereastra Command prompt aveți pentru site-ului accesat două adrese, localhost și o adresă în care se folosesc 4 numere (*192.168.56.1*), ca în imaginea următoare:
 
 ![Img. 3](/images/poza3.jpg)
 
-A doua adresă ar putea fi folosită pentru a accesa pagina creată (index.html) de pe telefonul Dv. 
+A doua adresă ar putea fi folosită pentru a accesa pagina creată (*index.html*) de pe telefonul Dv. 
 
 
 
