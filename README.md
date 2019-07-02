@@ -16,6 +16,6 @@ Procesul de instalare este următorul:
 1.	Se accesează [](https://nodejs.org/en/) și se instalează *Node.js*.  
 2.	Se instalează *Browsersync*. Pentru aceasta se tastează într-o fereastră *command prompt* comanda:
 ```
-      npm install -g browser-sync
+npm install -g browser-sync
 ```
 
