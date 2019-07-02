@@ -20,7 +20,7 @@ npm install -g browser-sync
 ```
 
 ## Prototipul unei pagini web create folosind *HTML5*:
-``` html
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
