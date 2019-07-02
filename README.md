@@ -130,7 +130,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 </html>
 ```
 
-Continuarea la adresa [w3schools](https://www.w3schools.com/css/css_intro.asp) ...
+Continuarea la adresa [w3schools.com](https://www.w3schools.com/css/css_intro.asp) ...
 
 
 
