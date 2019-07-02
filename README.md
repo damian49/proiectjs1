@@ -60,12 +60,12 @@ Observație: *index.html* este denumirea implicită a paginii principale a unui 
 A doua adresă ar putea fi folosită pentru a accesa pagina creată (*index.html*) de pe telefonul Dv. 
 
 ## Elemente HTML5
-•	Paragraf: <p>...</p>
-•	Titlu: <h1>...</h1>, <h2>...</h2> ( ... <h6>...</h6>)
-•	Sfârșit de linie (break): <br> (sau <br />)
-•	Listă neordonată (cu marcatori): <ul>...</ul>, <li>...</li>
-•	Listă ordonată: <ol>...</ol>, <li>...</li>
-•	Division (section): <div>...</div>
+- Paragraf: <p>...</p>
+- Titlu: <h1>...</h1>, <h2>...</h2> ( ... <h6>...</h6>)
+- Sfârșit de linie (break): <br> (sau <br />)
+- Listă neordonată (cu marcatori): <ul>...</ul>, <li>...</li>
+- Listă ordonată: <ol>...</ol>, <li>...</li>
+- Division (section): <div>...</div>
 
 ## CSS – *Cascading Style Sheets*
 Exemplu fundamental:
