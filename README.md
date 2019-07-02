@@ -40,7 +40,7 @@ Salvați conținutul tastat în fișierul denumit *index.html* din directorul pr
 ## Afișarea paginilor web
 Paginile web sunt afișate folosind o aplicație destinată navigării în Internet (eng. *browser*). Pentru cei care folosesc calculatoare pe care este instalat Windows, cele mai folosite sunt Google Chrome, Mozilla Firefox sau Microsoft Edge.
 
-Paginile web sunt primite (*servite*) apelând o aplicație specializată denumită *server de web*. Procesul de transfer în fereastra browser-ului a unei pagini din Internet este inițiat prin tastarea în caseta de adrese a browser-ului a adresei paginii web dorite. Adresa unei pagini web este introdusă automat în caseta de adrese dacă se selectează cu mausul o adresă (eng. link) dintr-o pagină deschisă. De exemplu, pentru a învăța cum se navighează pe discul calculatorului Dv. în fereastra *Command prompt* (important!) folosind comanda *cd* accesați pagina [](https://www.youtube.com/watch?v=sjaCgavMO18).
+Paginile web sunt primite (*servite*) apelând o aplicație specializată denumită *server de web*. Procesul de transfer în fereastra browser-ului a unei pagini din Internet este inițiat prin tastarea în caseta de adrese a browser-ului a adresei paginii web dorite. Adresa unei pagini web este introdusă automat în caseta de adrese dacă se selectează cu mausul o adresă (eng. link) dintr-o pagină deschisă. De exemplu, pentru a învăța cum se navighează pe discul calculatorului Dv. în fereastra *Command prompt* (important!) folosind comanda *cd* accesați pagina [youtube.com](https://www.youtube.com/watch?v=sjaCgavMO18).
 
 Pentru a porni pe calculatorul Dv. un server de web capabil să vă servească pagina creată anterior (*index.html*) deschideți o fereastră *Command prompt* și navigați în directorul proiectului *proiectjs1* (în cazul meu calea este *D:\Proiecte2019\proiect1*).
 Tastați apoi în fereasta *Command prompt* comanda:
@@ -60,12 +60,12 @@ Observație: *index.html* este denumirea implicită a paginii principale a unui 
 A doua adresă ar putea fi folosită pentru a accesa pagina creată (*index.html*) de pe telefonul Dv. 
 
 ## Elemente HTML5
-- Paragraf: <p>...</p>
-- Titlu: <h1>...</h1>, <h2>...</h2> ( ... <h6>...</h6>)
-- Sfârșit de linie (break): <br> (sau <br />)
-- Listă neordonată (cu marcatori): <ul>...</ul>, <li>...</li>
-- Listă ordonată: <ol>...</ol>, <li>...</li>
-- Division (section): <div>...</div>
+- Paragraf: `<p>...</p>`
+- Titlu: `<h1>...</h1>, <h2>...</h2> ( ... <h6>...</h6>)`
+- Sfârșit de linie (break): `<br> (sau <br />)`
+- Listă neordonată (cu marcatori): `<ul>...</ul>, <li>...</li>`
+- Listă ordonată: `<ol>...</ol>, <li>...</li>`
+- Division (section): `<div>...</div>`
 
 ## CSS – *Cascading Style Sheets*
 Exemplu fundamental:
