@@ -59,6 +59,78 @@ Observație: *index.html* este denumirea implicită a paginii principale a unui 
 
 A doua adresă ar putea fi folosită pentru a accesa pagina creată (*index.html*) de pe telefonul Dv. 
 
+## Elemente HTML5
+•	Paragraf: <p>...</p>
+•	Titlu: <h1>...</h1>, <h2>...</h2> ( ... <h6>...</h6>)
+•	Sfârșit de linie (break): <br> (sau <br />)
+•	Listă neordonată (cu marcatori): <ul>...</ul>, <li>...</li>
+•	Listă ordonată: <ol>...</ol>, <li>...</li>
+•	Division (section): <div>...</div>
+
+## CSS – *Cascading Style Sheets*
+Exemplu fundamental:
+```
+<style>
+body {
+   background-color: #3d7cb2;
+}
+
+h1 {
+   color: #dfe3e6;
+   text-align: center;
+}
+
+p {
+   font-family: verdana;
+   font-size: 20px;
+}
+</style>
+```
+Elementul *<style>* se plasează în secțiunea *<head>* a paginii *index.html*.
+  
+Exemplu de rezultat posibil:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- poveste ... -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Proiect 1</title>
+	<style>
+body {
+   background-color: #3d7cb2;
+}
+
+h1, h2 {
+   color: #dfe3e6;
+   text-align: center;
+}
+
+p, li {
+   font-family: verdana;
+   font-size: 16px;
+}
+</style>
+
+</head>
+<body>
+	<div>
+	<h2>Primul proiect</h2>
+	<p>Acest proiect ne acomodează cu principiile HTML.<br>Este vorba despre un proiect simplu, de vară.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+    
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><a href="https://www.w3schools.com">This is a link</a></p>
+	<ol>
+		<li>Primul element</li>
+		<li>Al doilea element...</li>
+	</ol>
+</div>
+</body>
+</html>
+```
+
+Continuarea la adresa [](https://www.w3schools.com/css/css_intro.asp) ...
 
 
 
