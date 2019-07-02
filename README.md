@@ -12,6 +12,7 @@ Accesați: [site-ul aplicației](https://www.sublimetext.com/)
 
 ## b.	Browsersync
 *Browsersync* este o aplicație care permite instituirea supravegherii unui număr de fișiere dintr-un director.  Ori de câte ori unul dintre fișierele supravegheate se modifică, *Browsersync* va reîncărca pagina web sau aplicația web căreia fișierul modificat îi aparține.
+
 Procesul de instalare este următorul:
 1.	Se accesează [](https://nodejs.org/en/) și se instalează *Node.js*.  
 2.	Se instalează *Browsersync*. Pentru aceasta se tastează într-o fereastră *command prompt* comanda:
@@ -38,12 +39,15 @@ Salvați conținutul tastat în fișierul denumit *index.html* din directorul pr
 
 ## Afișarea paginilor web
 Paginile web sunt afișate folosind o aplicație destinată navigării în Internet (eng. *browser*). Pentru cei care folosesc calculatoare pe care este instalat Windows, cele mai folosite sunt Google Chrome, Mozilla Firefox sau Microsoft Edge.
+
 Paginile web sunt primite (*servite*) apelând o aplicație specializată denumită *server de web*. Procesul de transfer în fereastra browser-ului a unei pagini din Internet este inițiat prin tastarea în caseta de adrese a browser-ului a adresei paginii web dorite. Adresa unei pagini web este introdusă automat în caseta de adrese dacă se selectează cu mausul o adresă (eng. link) dintr-o pagină deschisă. De exemplu, pentru a învăța cum se navighează pe discul calculatorului Dv. în fereastra *Command prompt* (important!) folosind comanda *cd* accesați pagina [](https://www.youtube.com/watch?v=sjaCgavMO18).
+
 Pentru a porni pe calculatorul Dv. un server de web capabil să vă servească pagina creată anterior (*index.html*) deschideți o fereastră *Command prompt* și navigați în directorul proiectului *proiectjs1* (în cazul meu calea este *D:\Proiecte2019\proiect1*).
 Tastați apoi în fereasta *Command prompt* comanda:
 ```
 browser-sync start --server --files "*.html, css/*.css, js/*.js"
 ```
 Această comandă pornește aplicația *browser-sync* și un server de web (opțiunea *--server*). De asemenea instituie supravegherea fișierelor *html*, *css* și *JavaScript* din cadrul proiectului Dv. (opțiunea *--files* ...).
+
 Dacă totul decurge perfect, browser-ul implicit de pe calculatorul Dv. va fi lansat în execuție automat și în fereastra acestuia veți vedea efectul încărcării paginii *index.html*.
 
