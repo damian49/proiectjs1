@@ -89,7 +89,7 @@ p {
 Elementul *<style>* se plasează în secțiunea *<head>* a paginii *index.html*.
   
 Exemplu de rezultat posibil:
-
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
