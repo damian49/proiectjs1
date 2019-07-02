@@ -50,9 +50,13 @@ browser-sync start --server --files "*.html, css/*.css, js/*.js"
 Această comandă pornește aplicația *browser-sync* și un server de web (opțiunea *--server*). De asemenea instituie supravegherea fișierelor *html*, *css* și *JavaScript* din cadrul proiectului Dv. (opțiunea *--files* ...).
 
 Dacă totul decurge perfect, browser-ul implicit de pe calculatorul Dv. va fi lansat în execuție automat și în fereastra acestuia veți vedea efectul încărcării paginii *index.html*.
-![Img. 1](/images/poza2.jpg)
+
+![Img. 2](/images/poza2.jpg)
+
 Observație: *index.html* este denumirea implicită a paginii principale a unui site web. Din acest motiv în caseta de adrese a browser-ului nu apare denumirea paginii încărcate ci numai adresa din internet de unde a fost preluată. Adresa localhost se referă la propriul calculator. La pornirea serverului de web, în fereastra Command prompt aveți pentru site-ului accesat două adrese, localhost și o adresă în care se folosesc 4 numere, ca în imaginea următoare:
-![Img. 1](/images/poza3.jpg)
+
+![Img. 3](/images/poza3.jpg)
+
 A doua adresă ar putea fi folosită pentru a accesa pagina creată (index.html) de pe telefonul Dv. 
 
 
