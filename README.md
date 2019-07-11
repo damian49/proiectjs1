@@ -361,7 +361,7 @@ Comentariu: Soluția prezentată este rudimentară deoarececare utilizează neju
 ```
 Comentariu: Evident, tot o soluție rudimentară deoarece pentru fiecare linie de pe ecran se apelează *document.write()*, deși se poate observa că s-ar putea automatiza generarea liniilor scriind un ciclu *for*.
 
-**Varianta 3
+**Varianta 3**
 
 ```
 <DOCTYPE! html>
@@ -414,6 +414,7 @@ Pentru a genera table înmulțirii cu orice număr, valoarea variabilei n poate 
 </body>
 </html>
 ```
+Rezultat:
 
 ![Img. 7](/images/poza7.jpg)
 
