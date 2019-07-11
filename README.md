@@ -356,6 +356,59 @@ Comentariu: Soluția prezentată este rudimentară deoarececare utilizează neju
 </body>
 </html>
 ```
-Comentariu: Evident, tot o soluție rudimentară deoarece pentru fiecare linie de pe ecran se apelează *document.write()*, deși se poate observa că există o regulă de scriere care permite generarea liniilor într-un ciclu *for*.
+Comentariu: Evident, tot o soluție rudimentară deoarece pentru fiecare linie de pe ecran se apelează *document.write()*, deși se poate observa că s-ar putea automatiza generarea liniilor scriind un ciclu *for*.
+
+**Varianta 3
+
+```
+<DOCTYPE! html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Java Script</title>
+</head>
+<body>
+	<h1>Tabla înmulțirii cu 7</h1>
+	<p>
+	<script>
+	   var n = 7, i;
+	   for(i=1; i <= 10; i++) {
+	      document.write(n + " x " + i + " = " + n*i + "<br>");
+	   }
+	</script>
+	</p>
+</body>
+</html>
+```
+Comentariu: O soluție corectă.
+
+**Generalizare
+
+Pentru a genera table înmulțirii cu orice număr, valoarea variabilei n poate fi citită folosind window.prompt(). Această funcție afișează o fereastră conținând un mesaj și o casetă de text ăn care se poate tasta o valoare.
+
+```
+<DOCTYPE! html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Java Script</title>
+	<script>
+    	var n = prompt("Tabla înmulțirii cu n. Introduceți n: ");
+    </script>
+</head>
+<body>
+	<h1>Tabla înmulțirii cu <script>document.write(n);</script></h1> 
+	<p>
+	<script>
+	var i;
+	for(i=1; i<=10; i++) {
+		document.write(n + " x " + i + " = " + n*i + "<br>");
+	}
+	</script>
+	</p>
+</body>
+</html>
+```
+Comentariu: O soluție corectă.
 
 
