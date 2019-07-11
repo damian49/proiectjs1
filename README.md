@@ -134,7 +134,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 Continuarea (pentru curioși :)) la adresa [w3schools.com](https://www.w3schools.com/css/css_intro.asp) ...
 
-## Și în sfârșit, JavaScript!
+## Și în sfârșit, JavaScript :anguished:!
 Paginile Web pot conţine pe lângă ansamblul de elemente care formează informaţia afişată şi secvenţe de cod care contribuie la realizarea unor efecte deosebite. Sunt deja consacrate galeriile de imagini, meniurile derulante sau efectele declanşate cu ajutorul mouse-ului care amplifică senzaţia de interactivitate. Pentru toate acestea s-a creat JavaScript, un limbaj derivat din C.
 
 ### Inserarea secvenţelor de cod JavaScript
