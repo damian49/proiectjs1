@@ -156,7 +156,7 @@ sau:
    <script src="js/program.js"></script>
 ```
 
-Deşi un element *<script>* poate fi plasat oriunde într-un fişier .html, există totuşi două locuri în care acesta este inserat cu precădere, respectiv la început, în *<head>*, sau la sfârşit, înainte de *</body>*. Plasarea unui element *<script>* la sfârşitul paginii are avantajul de a nu afecta sensibil viteza de afişare a acesteia, deoarece browser-ul tratează elementele conţinute în fişierul hipertext în ordine. Dacă elementul *<script>* este plasat la început, pagina se va afişa doar după încărcarea codului pe care acesta îl conține.
+Deşi un element *&lt;script>* poate fi plasat oriunde într-un fişier .html, există totuşi două locuri în care acesta este inserat cu precădere, respectiv la început, în *&lt;head>*, sau la sfârşit, înainte de *&lt;/body>*. Plasarea unui element *&lt;script>* la sfârşitul paginii are avantajul de a nu afecta sensibil viteza de afişare a acesteia, deoarece browser-ul tratează elementele conţinute în fişierul hipertext în ordine. Dacă elementul *&lt;script>* este plasat la început, pagina se va afişa doar după încărcarea codului pe care acesta îl conține.
 
-O pagină poate avea mai multe elemente *<script>*.
+O pagină poate avea mai multe elemente *&lt;script>*.
 
