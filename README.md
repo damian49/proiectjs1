@@ -187,7 +187,7 @@ O pagină poate avea mai multe elemente *&lt;script>*.
 
 Încărcarea paginii va produce afișarea unei mici ferestre:
 
-![Img. 1](/images/poza4.jpg)
+![Img. 4](/images/poza4.jpg)
 
 
 **2. Declararea și utilizarea unor variabile
@@ -332,8 +332,9 @@ Se propune realizarea unei mici aplicații web care să afișeze tabla înmulți
 </html>
 ```
 Funcția document.write() permite scrierea în pagină a unui șir de caractere. Este oarecum asemănătoare funcției console.log().
-
+![Img. 4](/images/poza5.jpg)
 Comentariu: Soluția prezentată este rudimentară deoarececare utilizează nejustificat de multe elemente `<script>`.
+
 
 **Varianta 2
 
@@ -382,9 +383,10 @@ Comentariu: Evident, tot o soluție rudimentară deoarece pentru fiecare linie d
 ```
 Comentariu: O soluție corectă.
 
-**Generalizare
+*Generalizare
 
-Pentru a genera table înmulțirii cu orice număr, valoarea variabilei n poate fi citită folosind window.prompt(). Această funcție afișează o fereastră conținând un mesaj și o casetă de text ăn care se poate tasta o valoare.
+Pentru a genera table înmulțirii cu orice număr, valoarea variabilei n poate fi citită folosind window.prompt(). Această funcție afișează o fereastră conținând un mesaj și o casetă de text în care se poate tasta o valoare.
+![Img. 6](/images/poza6.jpg)
 
 ```
 <DOCTYPE! html>
@@ -409,6 +411,7 @@ Pentru a genera table înmulțirii cu orice număr, valoarea variabilei n poate 
 </body>
 </html>
 ```
+
 Comentariu: O soluție corectă.
 
 
