@@ -160,7 +160,10 @@ Deşi un element *&lt;script>* poate fi plasat oriunde într-un fişier .html, e
 
 O pagină poate avea mai multe elemente *&lt;script>*.
 
-### Exemplu fundamental
+### Exemple fundamentale
+
+**1. Afișarea unui mesaj dintr-un script JavaScript
+
 ```
 <DOCTYPE! html>
 <html>
@@ -187,6 +190,38 @@ O pagină poate avea mai multe elemente *&lt;script>*.
 ![Img. 1](/images/poza4.jpg)
 
 
+**2. Declararea și utilizarea unor variabile
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Programarea in JavaScript</title>
+</head>
+<body>
+    <h1>O pagină HTML</h1>
+    <p>Aceasta este o pagină HTML.</p>
+    <p>Ea poate fi deschisă în diferite browsere:</p>
+    <ul>
+        <li>Internet Explorer</li>
+        <li>Mozilla Firefox</li>
+        <li>Google Chrome</li>
+        <li>Opera, etc.</li>
+    </ul>
+    <script>
+        var i = 100;
+        console.log("i = ", i);
+    </script>
+</body>
+</html>
+```
+
+Funcția apelată în finalul scriptului, console.log(), produce afișarea unei linii în consola browser-ului. Pentru a afișa consola, în funcție de browser-ul utilizat, se va apăsa o anumită combinație de taste.
+
+* Google Chrome: F12 sau Ctrl+Shift+J;
+* Safari: Ctrl+Alt+I;
+* Firefox: Ctrl+Shift+K;
 
 
 
