@@ -313,7 +313,7 @@ Pentru a adăuga un element la sfârşitul unui şir se foloseşte funcţia *pus
 
 Se propune realizarea unei mici aplicații web care să afișeze tabla înmulțirii cu 7 si apoi, după generalizeare, să afișeze tabla înmulțirii cu orice număr.
 
-**Varianta 1
+**Varianta 1**
 
 ```
 <DOCTYPE! html>
@@ -338,7 +338,7 @@ Funcția document.write() permite scrierea în pagină a unui șir de caractere.
 Comentariu: Soluția prezentată este rudimentară deoarececare utilizează nejustificat de multe elemente `<script>`.
 
 
-**Varianta 2
+**Varianta 2**
 
 ```
 <DOCTYPE! html>
@@ -385,7 +385,7 @@ Comentariu: Evident, tot o soluție rudimentară deoarece pentru fiecare linie d
 ```
 Comentariu: O soluție corectă.
 
-*Generalizare
+**Generalizare**
 
 Pentru a genera table înmulțirii cu orice număr, valoarea variabilei n poate fi citită folosind window.prompt(). Această funcție afișează o fereastră conținând un mesaj și o casetă de text în care se poate tasta o valoare.
 
@@ -415,6 +415,6 @@ Pentru a genera table înmulțirii cu orice număr, valoarea variabilei n poate 
 </html>
 ```
 
-Comentariu: O soluție corectă.
+![Img. 7](/images/poza7.jpg)
 
 
