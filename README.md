@@ -1,19 +1,18 @@
 # proiectjs1
-# ==========
 
 
 A project designed to learn some basic HTML, CSS and JavaScript concepts.
 
-# Crearea proiectului 
+## Crearea proiectului 
 Se crează pe discul *D:* un director denumit *proiect1*. În acest director se crează subdirectoarele *css* și *js*.
 Rezultat:
 ![Img. 1](/images/poza1.jpg)
 
-# Instalări 
-## a.	SublimeText
+## Instalări 
+### a.	SublimeText
 Accesați: [site-ul aplicației](https://www.sublimetext.com/) 
 
-## b.	Browsersync
+### b.	Browsersync
 *Browsersync* este o aplicație care permite instituirea supravegherii unui număr de fișiere dintr-un director.  Ori de câte ori unul dintre fișierele supravegheate se modifică, *Browsersync* va reîncărca pagina web sau aplicația web căreia fișierul modificat îi aparține.
 
 Procesul de instalare este următorul:
@@ -23,7 +22,7 @@ Procesul de instalare este următorul:
 npm install -g browser-sync
 ```
 
-## Prototipul unei pagini web create folosind *HTML5*
+### Prototipul unei pagini web create folosind *HTML5*
 Porniți aplicația *Sublime Text* și tastați următorul cod HTML:
 ```
 <!DOCTYPE html>
