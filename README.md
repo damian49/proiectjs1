@@ -332,7 +332,9 @@ Se propune realizarea unei mici aplicații web care să afișeze tabla înmulți
 </html>
 ```
 Funcția document.write() permite scrierea în pagină a unui șir de caractere. Este oarecum asemănătoare funcției console.log().
-![Img. 4](/images/poza5.jpg)
+
+![Img. 5](/images/poza5.jpg)
+
 Comentariu: Soluția prezentată este rudimentară deoarececare utilizează nejustificat de multe elemente `<script>`.
 
 
@@ -386,6 +388,7 @@ Comentariu: O soluție corectă.
 *Generalizare
 
 Pentru a genera table înmulțirii cu orice număr, valoarea variabilei n poate fi citită folosind window.prompt(). Această funcție afișează o fereastră conținând un mesaj și o casetă de text în care se poate tasta o valoare.
+
 ![Img. 6](/images/poza6.jpg)
 
 ```
