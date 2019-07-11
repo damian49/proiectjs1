@@ -418,4 +418,46 @@ Rezultat:
 
 ![Img. 7](/images/poza7.jpg)
 
+Se poate rescrie aplicația astfel încât codul JavaScript să fie înregistrat într-un fișier denumit *tabla.js*, astfel:
+
+
+```
+<DOCTYPE! html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Java Script</title>
+</head>
+<body>
+	<h1 id="titlu"></h1>
+	<p id="tabla"></p>
+	<script src="js/tabla.js"></script>
+</body>
+</html>
+```
+
+Scriptul javascript *tabla.js* este următorul:
+
+```
+var n = 9;
+var tit = document.querySelector("h1");
+var parag = document.querySelector('p');
+
+tit.innerHTML = "Tabla inmultirii cu " + n;
+var sir= "", i;
+for(i=1; i<=10; i++) {
+	sir = sir + n + " x " + i + " = " + n * i + "<br>";
+}
+console.log("sir: " + sir);
+parag.innerHTML = sir;
+```
+
+**Observație:**
+Cele două elemente care intervin în cod, &lt;h1> si &lt;p> au atribute *id* (*titlu* respectiv *tabla*). Valorile atributelor *id* sunt prin definiție unice în cadrul unei pagini web. În astfel de cazuri memorarea lor în variabile ale scriptului se realizează folosind valorile atributelor *id*, astfel:
+
+```
+var tit = document.querySelector("#titlu");
+var parag = document.querySelector('#tabla');
+```
+
 
