@@ -160,3 +160,29 @@ Deşi un element *&lt;script>* poate fi plasat oriunde într-un fişier .html, e
 
 O pagină poate avea mai multe elemente *&lt;script>*.
 
+### Exemplu fundamental
+```
+<DOCTYPE! html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Java Script</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<script>
+		alert("Mesaj din script: Spor!");
+	</script>
+	<h1>Titlul paginii</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.</p>
+</body>
+</html>
+```
+
+Încîrcarea paginii va produce afișarea unei mici ferestre:
+
+
+
