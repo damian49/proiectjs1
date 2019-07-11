@@ -217,11 +217,145 @@ O pagină poate avea mai multe elemente *&lt;script>*.
 </html>
 ```
 
-Funcția apelată în finalul scriptului, console.log(), produce afișarea unei linii în consola browser-ului. Pentru a afișa consola, în funcție de browser-ul utilizat, se va apăsa o anumită combinație de taste.
+Funcția apelată în finalul scriptului, *console.log()*, produce afișarea unei linii în *consola* browser-ului. Pentru a afișa consola, în funcție de browser-ul utilizat, se va apăsa o anumită combinație de taste.
 
 * Google Chrome: F12 sau Ctrl+Shift+J;
 * Safari: Ctrl+Alt+I;
 * Firefox: Ctrl+Shift+K;
 
+### Variabile
+Ca în orice limbaj de programare, variabilele sunt containere folosite pentru a păstra valori. Pentru a declara o variabilă se foloseşte cuvântul rezervat var. Declararea unei variabile poate fi cumulată cu iniţializarea ei. Exemple:
+
+```
+   var nrLinii = 7;
+   var sumaInt = 12 + 45;
+   var coleg, prieteni;
+   var anul=2014, luna=10, ziua=14;
+```
+
+În exemplele prezentate primele variabile (*nrLinii* şi *sumaInt*) sunt iniţializate în momentul declarării iar următoarele două (*coleg* şi *prieteni*) sunt doar declarate, urmând să fie iniţializate ulterior. Evident, o variabilă neiniţializată nu poate fi folosită decât după ce primeşte o valoare printr-o atribuire. Până la inițializare o variabilă are tipul *undefined* (nedefinit).
+
+Denumirea unei variabile începe cu o literă şi poate conţine litere, cifre şi `'_'` (*underscore*). De obicei programatorii folosesc denumiri sugestive, formate prin alăturarea mai multor cuvinte. Pentru a face inteligibil numele astfel obţinut, cuvintele care îl compun sunt separate prin `'_'` sau încep cu o literă mare (variantă denumită sugestiv *camelCase*).
+
+### Tipul unei variabile
+
+Tipul unei variabile se stabileşte automat, în momentul iniţializării.
+
+În JavaScript sunt definite următoarele tipuri:
+
+* Number,
+* String,
+* Boolean,
+* Object,
+* null și
+* undefined.
+Observații: 
+1. *null* diferă de *undefined* prin faptul că *undefined* este tipul unei variabile care încă nu a fost inițializată iar *null* este tipul unei variabile căreia i s-a dat valoarea *null* cu scopul de a impune lipsa unei valori.
+
+2. O variabilă iniţializată poate primi ulterior altă valoare, de acelaşi tip sau având un tip diferit, caz în care îşi modifică automat tipul. Exemple:
+
+```
+   var varianta = 7;   //  varianta este de tip Number
+   varianta = "Fructe de pădure";  //  varianta devine String
+```
+
+3. Şirurile de caractere pot fi delimitate atât prin ghilimele ("sir cu ghilimele") cât şi prin caractere apostrof ('sir cu apostrof').
+
+### Şiruri de valori
+
+Pe lângă tipurile simple, în JavaScript se pot declara şiruri de valori (eng. *arrays*) şi obiecte. Spre deosebire de limbajele puternic tipizate (C++, Java, C# etc.) în JavaScript şirurile de valori pot conţine elemente de diferite tipuri. Exemple:
+
+```
+   var intregi = [11, 21, 3, 45, 5];  //  sir de intregi, ca în C++
+   var sir = ["Ambasador", 2300, "Functionar", 1800]; //  JavaScript!
+   var nume = ["Ionescu", 1200, "Popa", 3400, "Alexandru", "Oltean"];
+```
+
+Un element al unui şir de valori poate fi accesat folosind indici, astfel:
+
+```
+   var unNume = nume[2];  //  Popa, pozitia a 3-a
+```
+
+Ca şi în C, numărarea elementelor începe de la 0.
+
+Pentru a cunoaşte lungimea şirului se poate accesa proprietatea *length* scriind *nume.length* (va returna 6).
+
+Şirurile din JavaScript pot conţine orice valori, inclusiv obiecte sau alte şiruri.
+
+Tablourile bidimensionale se definesc asfel:
+
+```
+   var rude = [
+      ["Ionescu", "Popa", "Alexandru"],
+      ["23", "12", "34"]
+   ];
+```
+
+Pentru a accesa elemente dintr-un astfel de tablou se vor folosi doi indici, ca înlimbajul C:
+
+```
+   nume = rude[0][0]; // Ionescu
+   varsta = rude[1][0]; // 23
+   nr = rude[1][2];     // 34
+```
+
+Observaţie: Ca şi în C, `rude[0]` reprezintă şirul `["Ionescu", "Popa", "Alexandru"]` iar `rude[1]` şirul `["23", "12", "34"]`.
+
+Pentru a adăuga un element la sfârşitul unui şir se foloseşte funcţia *push()*. Exemplu:
+
+```
+   nume.push("Alexandra");
+   console.log("Lungimea sirului: " + nume.length);  //  Afiseaza: Lungimea sirului: 7
+```
+
+### Aplicație
+
+Se propune realizarea unei mici aplicații web care să afișeze tabla înmulțirii cu 7 si apoi, după generalizeare, să afișeze tabla înmulțirii cu orice număr.
+
+**Varianta 1
+
+```
+<DOCTYPE! html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Java Script</title>
+</head>
+<body>
+	<h1>Tabla înmulțirii cu 7</h1>
+	<p>7 x 1 = <script>document.write(7*1);</script><br>
+		7 x 2 = <script>document.write(7*2);</script><br>
+		7 x 3 = <script>document.write(7*3);</script><br>
+	</p>
+</body>
+</html>
+```
+Funcția document.write() permite scrierea în pagină a unui șir de caractere. Este oarecum asemănătoare funcției console.log().
+
+Comentariu: Soluția prezentată este rudimentară deoarececare utilizează nejustificat de multe elemente `<script>`.
+
+**Varianta 2
+
+```
+<DOCTYPE! html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Java Script</title>
+</head>
+<body>
+	<h1>Tabla înmulțirii cu 7</h1>
+	<p>
+	<script>
+	document.write("7 x 1 = " + 7*1 + "<br>");
+	document.write("7 x 2 = " + 7*2 + "<br>");
+	document.write("7 x 3 = " + 7*3 + "<br>");
+        </script>
+	</p>
+</body>
+</html>
+```
+Comentariu: Evident, tot o soluție rudimentară deoarece pentru fiecare linie de pe ecran se apelează *document.write()*, deși se poate observa că există o regulă de scriere care permite generarea liniilor într-un ciclu *for*.
 
 
