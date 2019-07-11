@@ -22,7 +22,7 @@ Procesul de instalare este următorul:
 npm install -g browser-sync
 ```
 
-### Prototipul unei pagini web create folosind *HTML5*
+## Prototipul unei pagini web create folosind *HTML5*
 Porniți aplicația *Sublime Text* și tastați următorul cod HTML:
 ```
 <!DOCTYPE html>
@@ -134,7 +134,29 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 Continuarea (pentru curioși :)) la adresa [w3schools.com](https://www.w3schools.com/css/css_intro.asp) ...
 
+## Și în sfârșit, JavaScript!
+Paginile Web pot conţine pe lângă ansamblul de elemente care formează informaţia afişată şi secvenţe de cod care contribuie la realizarea unor efecte deosebite. Sunt deja consacrate galeriile de imagini, meniurile derulante sau efectele declanşate cu ajutorul mouse-ului care amplifică senzaţia de interactivitate. Pentru toate acestea s-a creat JavaScript, un limbaj derivat din C.
 
+### Inserarea secvenţelor de cod JavaScript
+Codul JavaScript se rulează în cadrul unui *interpretor de comenzi* integrat în aplicaţia de navigare în Internet. Se spune că JavaScript este un limbaj interpretat (spre deosebire de C sau C++ care sunt limbaje compilate). Limbajele interpretate se mai numesc şi limbaje de scriptare (eng. *scripting languages*).
 
+O aplicaţie Web este însă o aplicaţie în *arhitectură client-server*, componenta *client* fiind executată în aplicaţia de navigare. Din această perspectivă, JavaScript este limbajul destinat scrierii componentei client. Pentru *componenta server*, programarea se face frecvent în PHP, PYTHON sau chiar în Javascript (folosind [Node.js](https://www.tutorialsteacher.com/nodejs/create-nodejs-web-server)). 
 
+Inserarea codului JavaScript într-un document hipertext se realizează folosind un element *<script>*. Acesta poate conține cod JavaScript sau o referință la un fişier *.js* care conţine codul necesar. Exemplu de utilizare a unui element *<script>*:
+
+```
+   <script>
+      // Se inserează liniile de cod
+   </script>
+```
+
+sau:
+
+```
+   <script src="js/program.js"></script>
+```
+
+Deşi un element *<script>* poate fi plasat oriunde într-un fişier .html, există totuşi două locuri în care acesta este inserat cu precădere, respectiv la început, în *<head>*, sau la sfârşit, înainte de *</body>*. Plasarea unui element *<script>* la sfârşitul paginii are avantajul de a nu afecta sensibil viteza de afişare a acesteia, deoarece browser-ul tratează elementele conţinute în fişierul hipertext în ordine. Dacă elementul *<script>* este plasat la început, pagina se va afişa doar după încărcarea codului pe care acesta îl conține.
+
+O pagină poate avea mai multe elemente *<script>*.
 
