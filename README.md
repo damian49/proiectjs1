@@ -182,7 +182,11 @@ O pagină poate avea mai multe elemente *&lt;script>*.
 </html>
 ```
 
-Încîrcarea paginii va produce afișarea unei mici ferestre:
+Încărcarea paginii va produce afișarea unei mici ferestre:
+
+![Img. 1](/images/poza4.jpg)
+
+
 
 
 
