@@ -48,4 +48,5 @@ După (re)încărcarea paginii ar trebui să vedeți în consolă valorile afiș
 
 ![ST Snippet](/images/poza13.png)
 
+Unde plasăm elementul &lt;script>? Eu l-aș pune la sfârșitul paginii, înainte de &lt;/body>.
 
