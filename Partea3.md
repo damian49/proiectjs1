@@ -44,3 +44,8 @@ Secvența de cod ar putea fi următoarea:
 </script>
 ```
 
+După (re)încărcarea paginii ar trebui să vedeți în consolă valorile afișate:
+
+![ST Snippet](/images/poza13.png)
+
+
