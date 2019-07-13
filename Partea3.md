@@ -63,7 +63,8 @@ T(°C) = (T(°F) - 32) × 5/9
 
 **Varianta 2:** Citiți valoarea de convertit (cu *prompt()*) și afișați rezultatul într-o fereastră folosind *alert()*. Spor!
 
-Procedând oarecum similar, realizați de exemplu transformări din alte unități anglosaxone (uncii, inci...) în unități din sistemul metric. 
-Sau calculați-vă indicele de masă corporală ([IMC](https://www.medlife.ro/vitmatina-cum-se-calculeaza-indicele-masei-corporale.html)).
+Procedând oarecum similar, realizați de exemplu transformări din alte unități anglo-saxone (uncii, inci...) în unități din sistemul metric. 
+
+Sau, mai bine chiar, calculați-vă indicele de masă corporală ([IMC](https://www.medlife.ro/vitmatina-cum-se-calculeaza-indicele-masei-corporale.html)).
 
 
