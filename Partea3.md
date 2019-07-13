@@ -67,4 +67,17 @@ Procedând oarecum similar, realizați de exemplu transformări din alte unită�
 
 Sau, mai bine chiar, calculați-vă indicele de masă corporală ([IMC](https://www.medlife.ro/vitmatina-cum-se-calculeaza-indicele-masei-corporale.html)).
 
+## Și ceva mai complex...
+
+Scrieți un script JavaScript în care declarați și inițializați un șir de valori numerice întregi (7 valori să zicem).
+Calculați și afișați pe consolă suma valorilor din șir, valoarea maximă și numărul valorilor divizibile prin 3.
+Observație: Pentru generalizare, elementele șirului vor fi numere aleatoare. În JavaScript, pentru generarea unei valori aleatoare se apelează funcția *Math.random()* care returnează o valoare reală (dublă precizie) cuprinsă între 0 (inclusiv) și 1 (exclusiv).
+Exemplu de utilizare ([w3schools](https://www.w3schools.com/js/js_random.asp)):
+```
+   var n, n1;
+   n = Math.floor(Math.random()*100); // n va fi un intreg intre 0 si 99
+   n1 = Math.floor(Math.random()*100) + 1;  //  // n1 va fi un intreg intre 1 si 100
+```
+
+### Soluție parțială
 
