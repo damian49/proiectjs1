@@ -84,4 +84,20 @@ Exemplu de utilizare ([w3schools](https://www.w3schools.com/js/js_random.asp)):
 Funcția *Math.floor()* produce o valoare întreagă prin truncherea părții zecimale a argumentului. `Deci Math.floor(72.9817) = 72`.
 
 ### Soluție parțială
+```
+<script>
+   var a = [];  //  Un sir vid. Sau var a = array();
+   var i, suma, n = 10;
+   //  Initializez sirul cu valori aleatoare intre 1 si 100
+   for(i = 0; i < n; i++) {
+   	  a[i] = Math.floor(Math.random()*100) + 1;
+   	  console.log("a[" + i + "] = " + a[i]);
+   }
+   suma = 0;
+   for(i = 0; i < n; i++) {
+   	  suma += a[i];
+   }
+   console.log("Suma este ", suma);
+</script>
+```
 
