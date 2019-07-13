@@ -1,6 +1,6 @@
 ## Exerciții de programare în JavaScript
 
-### Elemente introductive
+### Un pic de pregătire...
 
 Realizați o pagină web elementară.
 
