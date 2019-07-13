@@ -48,5 +48,21 @@ După (re)încărcarea paginii ar trebui să vedeți în consolă valorile afiș
 
 ![ST Snippet](/images/poza13.png)
 
-Unde plasăm elementul &lt;script>? Eu l-aș pune la sfârșitul paginii, înainte de &lt;/body>.
+Unde plasăm elementul *&lt;script>*? Eu l-aș pune la sfârșitul paginii, înainte de *&lt;/body>*. Nu prea are treabă cu restul paginii, deci se aplică regula.
+
+2. Alt exemplu. Trebuie să transformăm gradele Fahrenheit în grade Celsius. Relația de calcul ar fi:
+
+T(°C) = (T(°F) - 32) × 5/9
+
+**Varianta 1:**
+```
+   var tf = 20, tc;
+   tc = (tf - 32.) * 5. / 9.;
+   console.out("Temperatura de " + tf + "grade Fahrenheit convetita in Celsius este: " + tc);
+```
+
+**Varianta 2:** Citiți valoarea de convertit (cu window.prompt()) și afișați rezultatul într-o fereastră alert. Spor!
+
+
+
 
