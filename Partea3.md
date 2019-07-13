@@ -81,5 +81,7 @@ Exemplu de utilizare ([w3schools](https://www.w3schools.com/js/js_random.asp)):
    n1 = Math.floor(Math.random()*100) + 1;  //  // n1 va fi un intreg intre 1 si 100
 ```
 
+Funcția *Math.floor()* produce o valoare întreagă prin truncherea părții zecimale a argumentului. `Deci Math.floor(72.9817) = 72`.
+
 ### Soluție parțială
 
