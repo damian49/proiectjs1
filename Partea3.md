@@ -69,7 +69,7 @@ Sau, mai bine chiar, calculați-vă indicele de masă corporală ([IMC](https://
 
 ## Și ceva mai complex...
 
-Scrieți un script JavaScript în care declarați și inițializați un șir de valori numerice întregi (7 valori să zicem).
+Scrieți un script JavaScript în care declarați și inițializați un șir de valori numerice întregi (10 valori să zicem?).
 Calculați și afișați pe consolă suma valorilor din șir, valoarea maximă și numărul valorilor divizibile prin 3.
 Observație: Pentru generalizare, elementele șirului vor fi numere aleatoare. În JavaScript, pentru generarea unei valori aleatoare se apelează funcția *Math.random()* care returnează o valoare reală (dublă precizie) cuprinsă între 0 (inclusiv) și 1 (exclusiv).
 Exemplu de utilizare ([w3schools](https://www.w3schools.com/js/js_random.asp)):
