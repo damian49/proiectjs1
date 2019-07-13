@@ -58,7 +58,7 @@ T(°C) = (T(°F) - 32) × 5/9
 ```
    var tf = 72, tc;
    tc = (tf - 32.) * 5. / 9.;
-   console.log("Temperatura de " + tf + "grade Fahrenheit convetita in Celsius este: " + tc);
+   console.log("Temperatura de " + tf + " grade Fahrenheit convetita in Celsius este: " + tc);
 ```
 
 **Varianta 2:** Citiți valoarea de convertit (cu window.prompt()) și afișați rezultatul într-o fereastră alert. Spor!
