@@ -28,3 +28,19 @@ Rezultat:
 
 Observație: Noul fișier va avea obligatoriu extensia *.html*!
 
+## Ok, și acum JavaScript!
+
+Să începem cu câteva lucruri simple:
+
+1. Declarați două variabile, *a* și *b*, având valorile inițiale *10* și *17*. Afișați pe consolă cele două valori și apoi schimbați între ele conținuturile celor două variabile (adică *a* trebuie să fie *17* și *b 10*). Afișați apoi pe consolă noile valori. Verificați dacă totul a funcționat (afișați consola, *F12*!).
+
+Secvența de cod ar putea fi următoarea:
+```
+<script>
+   var a = 10, b = 17, aux;
+   console.log("Inainte: a = ", a, ", b = ", b);
+   aux = a; a = b; b = aux;
+   console.log("Dupa: a = ", a, ", b = ", b);
+</script>
+```
+
