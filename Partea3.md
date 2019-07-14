@@ -149,16 +149,16 @@ Se consideră următoarea pagină web:
   <body>
   	<p>Afișează imaginea!</p>
   	<script>
-  	   var par = document.querySelector("p");
-  	   par.onclick = getImage;
-  	   par.style.cursor = "pointer";
+  	   var par = document.querySelector("p");  //  par este paragraful existent de la inceput
+  	   par.onclick = incarcImag;     //  incarcImg este numele unei functii JavaScript (definita in continuare)
+  	   par.style.cursor = "pointer"; // Modific aspectul cursorului mouse-ului cand este deasupra paragrafului
 
-  	   function getImage(){
-  	      var para = document.createElement("p");
-  	      var image = document.createElement("img");
-  	      image.src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png";
-  	      para.appendChild(image);
-  	      document.body.appendChild(para);
+  	   function incarcImg() {
+  	      var para = document.createElement("p");      	// Creez un nou element (de tip "p", un paragraf)
+  	      var image = document.createElement("img");   	// Crez un element de tip "img" (o imagine)
+  	      image.src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png";  //  Modific proprietatea "src" (source)
+  	      para.appendChild(image);   	// Adaug imaginea in paragraful creat
+  	      document.body.appendChild(para);	// Adaug in "body" paragraful creat
   	   }
   	</script>  
   </body>
@@ -166,5 +166,8 @@ Se consideră următoarea pagină web:
 ```
 
 Pagina are ca și conținut inițial un paragraf (un element *&lt;p>*) dar selectarea acestuia cu mausul provoacă adăugarea unui paragraf suplimentar și inserarea în acest nou paragraf a unei imagini.  
+
+![Afisare pagina](/images/poza16.png)
+
 
 
