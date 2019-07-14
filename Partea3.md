@@ -169,5 +169,63 @@ Pagina are ca și conținut inițial un paragraf (un element *&lt;p>*) dar selec
 
 ![Afisare pagina](/images/poza16.png)
 
+### Dacă e clar, un pic de magie...
 
+Problemă: Un șir de valori întregi aleatoare cuprinse în intervalul `[-50, 50)` trebuie prelucrat astfel încât să nu mai conțină valori negative. Practic valorile negative vor fi înmulțite cu -1.
 
+Soluție:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<title>Prelucrare</title>
+</head>
+<body>
+   	<h1>Modificare șir de numere</h1>
+   	<p>În continuare se va afișa un șir de valori numerice. Modificați șirul astfel încât să nu conțină decât valori pozitive.</p>
+   	<p id="sirdat"></p>
+   	<button id="actiune">Modifică șirul!</button>
+  	<script>
+   	//  Generez sirul
+   		var a = [];  //  Un sir vid.
+   		var i, n = 10;
+   	//  Initializez sirul cu valori aleatoare intre 1 si 100
+   	for(i = 0; i < n; i++) {
+   		a[i] = Math.floor(Math.random()*100) -50;
+   	}
+
+   	//  Pun elementele din sirul a în paragraful avand id="sirdat"
+
+   	function afisez() {
+   		var sircar = "";
+   		var i;
+   		for(i=0; i<n; i++) {
+   			sircar += " " + a[i];
+   		}
+   		var par = document.querySelector("#sirdat");
+   		par.innerHTML = sircar;
+   	}
+
+   	afisez();  //  Gata, sirul neste afisat
+
+   	//  Acum scriem functia care se executa la apasarea butonului
+
+   	var but = document.querySelector("#actiune");
+   	//  Avand doar un buton, putea fi ocument.querySelector("button");
+   	but.onclick = function() {
+   		var i;
+   		for(i=0; i<n; i++) {
+   			if(a[i] < 0) {
+   				a[i] = -a[i];
+   			}
+   		}
+   		//  Reafisez sirul
+   		afisez();
+   	};
+   </script>
+</body>
+```
+
+Comentariile ]n sală...
