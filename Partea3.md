@@ -103,9 +103,10 @@ Funcția *Math.floor()* produce o valoare întreagă prin truncherea părții ze
 
 ## D.O.M.
 *Document Object Model*, presurtat *DOM* este o specificare definită de W3C (*WWW Consortium*) care oferă pentru un document în format HTML o reprezentare sub forma unei structuri arbotescente de obiecte. Exemplu de structură de obiecte:
+
 ![DOM](/images/poza14.png)
 
-Structura arborescentă din imagine corespunde conținutului documentului următor:
+Structura arborescentă din imagine corespunde conținutului următorului fișier *.html*:
 ```
 <DOCTYPE! html>
 <html>
