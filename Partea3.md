@@ -144,19 +144,19 @@ Se consideră următoarea pagină web:
 <DOCTYPE! html>
 <html>
   <head>
-      <title>A simple example of DOM manipulation</title>
+      <title>Exemplu de manipulare a DOM-ului</title>
   </head>
   <body>
-  	<p>Get w3resource logo</p>
+  	<p>Afișează imaginea!</p>
   	<script>
-  	   var par = document.querySelector("p");  //  par este un obiect din DOM (primul element "<p>")
-  	   par.onclick = getImage;  //  getImage este o functie! Va fi definita ulterior.
+  	   var par = document.querySelector("p");
+  	   par.onclick = getImage;
   	   par.style.cursor = "pointer";
 
-  	   function getImage() {
+  	   function getImage(){
   	      var para = document.createElement("p");
   	      var image = document.createElement("img");
-  	      image.src="https://www.w3resource.com/images/logo.png";
+  	      image.src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png";
   	      para.appendChild(image);
   	      document.body.appendChild(para);
   	   }
