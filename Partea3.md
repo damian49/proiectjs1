@@ -107,6 +107,34 @@ Funcția *Math.floor()* produce o valoare întreagă prin truncherea părții ze
 ![DOM](/images/poza14.png)
 
 Structura arborescentă din imagine corespunde conținutului următorului fișier *.html*:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>This is a simple HTML document</title>
+</head>
+<body>
+	<h1>The Bourne Ultimatum</h1>
+	<img src="http://upload.wikimedia.org/wikipedia/en/f/fe/The_Bourne_Ultimatum_(2007_film_poster).jpg" alt="The Boutne Ultimatum Poster">
+	<p>Synopsis: The Bourne Ultimatum is a 2007 American-German action spy thriller film directed by Paul Greengrass loosely based on the Robert Ludlum novel of the same title. The screenplay was written by Tony Gilroy, Scott Z. Burns and George Nolfi.</p>
+	<ul>
+		<li>Release date: August 3, 2007 (USA)</li>
+		<li>Director: Paul Greengrass</li>
+		<li>Prequel: The Bourne Supremacy</li>
+		<li>Screenplay: Tony Gilroy, Scott Z. Burns, George Nolfi</li>
+	</ul>
+</body>
+</html>
+```
+
+Referindu-ne la DOM, fiecare *element HTML* dintr-un document este un *obiect* și are propriul set de *proprietăți* și *metode* (metodele sunt funcții, dar în programarea obiectuală funcțiile unei clase sunt denumite *metode*, denumire provenită din eng. *methods*). 
+
+JavaScript permite modificarea dinamică a proprietăților și apelarea metodelor din cadrul obiectelor. Dar nu numai JavaScript oferă această posibilitate ci și alte limbaje, intens utilizat astăzi fiind limbajul Python.
+
+In the context of DOM, every entity in an HTML or XML document, is referred as a Node. In JavaScript, all the Nodes are represented as Objects. They have their own properties and methods.
+
 ```
 <DOCTYPE! html>
 <html>
