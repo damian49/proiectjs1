@@ -650,7 +650,7 @@ Soluție:
    	<p id="sirdat"></p>
    	<button id="actiune">Modifică șirul!</button>
   	<script>
-   	//  Generez sirul
+   		//  Generez sirul
    		var a = [];  //  Un sir vid.
    		var i, n = 10;
    	//  Initializez sirul cu valori aleatoare intre 1 si 100
@@ -690,5 +690,5 @@ Soluție:
 </body>
 ```
 
-Comentariile ]n sală...
+Comentariile în sală...
 
