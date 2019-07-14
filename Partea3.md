@@ -102,7 +102,7 @@ Funcția *Math.floor()* produce o valoare întreagă prin truncherea părții ze
 ```
 
 ## D.O.M.
-*Document Object Model*, presurtat *DOM* este o specificare definită de W3C (*WWW Consortium*) care oferă pentru un document în format HTML o reprezentare sub forma unei structuri arbotescente de obiecte. Exemplu de structură de obiecte:
+*Document Object Model*, presurtat *DOM* este o specificare definită de W3C (*WWW Consortium*) care oferă pentru un document în format HTML o reprezentare sub forma unei structuri arbotescente de obiecte. Exemplu de astfel de structură:
 
 ![DOM](/images/poza14.png)
 
@@ -129,11 +129,16 @@ Structura arborescentă din imagine corespunde conținutului următorului fișie
 </html>
 ```
 
-Referindu-ne la DOM, fiecare *element HTML* dintr-un document este un *obiect* și are propriul set de *proprietăți* și *metode* (metodele sunt funcții, dar în programarea obiectuală funcțiile unei clase sunt denumite *metode*, denumire provenită din eng. *methods*). 
+Încărcat în browser, documentul se afișează astfel:
 
-JavaScript permite modificarea dinamică a proprietăților și apelarea metodelor din cadrul obiectelor. Dar nu numai JavaScript oferă această posibilitate ci și alte limbaje, intens utilizat astăzi fiind limbajul Python.
+![Afisare pagina](/images/poza15.png)
 
-In the context of DOM, every entity in an HTML or XML document, is referred as a Node. In JavaScript, all the Nodes are represented as Objects. They have their own properties and methods.
+Revenind la DOM, fiecare *element* dintr-un fișier *.html* este un *obiect* (în sens informatic!) și are propriul set de *proprietăți* și *metode* (de fapt funcții, dar în programarea obiectuală funcțiile unei clase sunt denumite *metode*, denumire provenită din eng. *methods*). 
+
+JavaScript permite accesarea obiectelor din DOM urmată de modificarea dinamică a unor proprietăți ale acestora și apelarea unor metode.  Dar nu numai JavaScript oferă posibilitatea exploatării DOM-ului ci și alte limbaje, intens utilizat astăzi fiind limbajul Python.
+
+### Exemplu de modificare a DOM-ului
+Se consideră următoarea pagină web:
 
 ```
 <DOCTYPE! html>
@@ -159,3 +164,7 @@ In the context of DOM, every entity in an HTML or XML document, is referred as a
   </body>
 </html>
 ```
+
+Pagina are ca și conținut inițial un paragraf (un element *&lt;p>*) dar selectarea acestuia cu mausul provoacă adăugarea unui paragraf suplimentar și inserarea în acest nou paragraf a unei imagini.  
+
+
