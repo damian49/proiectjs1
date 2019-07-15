@@ -615,7 +615,7 @@ Se consideră următoarea pagină web:
   	   par.onclick = incarcImag;     //  incarcImg este numele unei functii JavaScript (definita in continuare)
   	   par.style.cursor = "pointer"; // Modific aspectul cursorului mouse-ului cand este deasupra paragrafului
 
-  	   function incarcImg() {
+  	   function incarcImag() {
   	      var para = document.createElement("p");      	// Creez un nou element (de tip "p", un paragraf)
   	      var image = document.createElement("img");   	// Crez un element de tip "img" (o imagine)
   	      image.src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png";  //  Modific proprietatea "src" (source)
