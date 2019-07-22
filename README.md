@@ -715,8 +715,9 @@ O funcţie poate avea un număr de parametri formali, plasaţi între paranteze,
    }
 ```
 În exemplul dat nume şi mesaj sunt doi parametri formali, care în interiorul funcţiei pot fi folosiţi ca orice variabilă iniţializată în prealabil. În momentul apelului, parametrii formali primesc valori efective, apelul relizându-se ca în exemplul următor.
-
+```
    afisezMesaj(nume, " Parola Dv. este prea simpla!");
+```
 Observaţie: Dacă numărul de parametri ai funcţiei devine supărător de mare, soluţia este utilizarea ca parametru formal a unui obiect, ca în exemplul următor:
 ```
    afisez("Jack Franklin", 1987, 1871010154145, "designer");
@@ -741,7 +742,7 @@ afisez(ionescu);
 ```
 Soluţia prezentată simplifică mult scrierea funcţiilor care operează asupra unui număr mai mare de parametri. În loc să se gestioneze tipul şi poziţiile în care aceşti parametri apar, se crează un obiect care va fi transmis funcţiei ca unic parametru.
 
-Funcţiile pot returna o valoare. În acest caz, ultima instrucţiune din funcţie va fi o instrucţiune return. Exemplu:
+Funcţiile pot returna o valoare. În acest caz, ultima instrucţiune din funcţie va fi o instrucţiune *return*. Exemplu:
 ```
 function transform(lungInci) {
    var cm = lungInci * 2.54;
