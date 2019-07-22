@@ -692,3 +692,63 @@ Soluție:
 
 Comentariile în sală...
 
+## Funcții
+Ca şi în alte limbaje, și în JavaScript se pot defini funcţii. Ele permit izolarea într-o unitate de program distinctă a unor secvenţe de cod independente din punct de vedere funcţional. Scopul creării lor este acela de a simplifica scrierea unor secvenţe de prelucrare complexe prin divizarea lor în unităţi mai simple, uşor de depanat, dar şi de a scrie într-un singur loc codul care trebuie executat în diferite locuri într-o aplicaţie.
+
+Crearea unei funcţii se realizează prin declararea ei folosind cuvântul rezervat function. Corpul funcţiei va fi încadrat între acolade, '{' şi '}'. Exemplu:
+```
+function scriuPeConsola(mesaj) {
+    console.log(mesaj);
+    console.log("=========================");
+}
+```
+
+O funcţie se execută atunci când este apelată. Exemplu:
+```
+   scriuPeConsola("Valorile variabilelor:");
+```
+O funcţie poate avea un număr de parametri formali, plasaţi între paranteze, ca în exemplul următor.
+```
+   function afisezMesaj(nume, mesaj) {
+       //  '+' este operatorul de concatenare
+       console.log(nume + ", " + mesaj);
+   }
+```
+În exemplul dat nume şi mesaj sunt doi parametri formali, care în interiorul funcţiei pot fi folosiţi ca orice variabilă iniţializată în prealabil. În momentul apelului, parametrii formali primesc valori efective, apelul relizându-se ca în exemplul următor.
+
+   afisezMesaj(nume, " Parola Dv. este prea simpla!");
+Observaţie: Dacă numărul de parametri ai funcţiei devine supărător de mare, soluţia este utilizarea ca parametru formal a unui obiect, ca în exemplul următor:
+```
+   afisez("Jack Franklin", 1987, 1871010154145, "designer");
+```
+Funcţia *afişez()* ar trebui să aibă patru parametri. În locul acestei soluţii se poate scrie o funcţie cu un parametru, care va fi însă obiect.
+```
+function afisez(pers) {
+   console.log("Numele: " + pers.nume);
+   console.log("Anul nasterii: " + pers.anNastere);
+   console.log("CNP: " + pers.CNP);
+   console.log("Ocupatie: " + pers.ocupatie);
+}
+
+var ionescu = {
+   nume: "Ionescu Clara",
+   anNastere: 1984,
+   CNP: "2840410123978",
+   ocupatie: "studenta"
+}
+
+afisez(ionescu);
+```
+Soluţia prezentată simplifică mult scrierea funcţiilor care operează asupra unui număr mai mare de parametri. În loc să se gestioneze tipul şi poziţiile în care aceşti parametri apar, se crează un obiect care va fi transmis funcţiei ca unic parametru.
+
+Funcţiile pot returna o valoare. În acest caz, ultima instrucţiune din funcţie va fi o instrucţiune return. Exemplu:
+```
+function transform(lungInci) {
+   var cm = lungInci * 2.54;
+   return cm;
+}
+
+var lungimeI = 12;  //  Lungimea in inci
+var lungCm = transform(lungimeI);
+```
+Funcţiile pot accesa variabilele definite înafara lor. Variabilele definite în interiorul funcţiilor (variabilele locale) nu pot fi accesate dinafara funcţiilor în care au fost definite.
