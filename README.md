@@ -692,6 +692,44 @@ Soluție:
 
 Comentariile în sală...
 
+## Obiecte
+În JavaScript obiectele pot fi create în mai multe moduri, în funcţie de scopul urmărit. În continuare va fi prezentată doar varianta de definire folosind obiecte constante (literali). Ea este folosită dacă într-un script se doreşte crearea unui obiect complex numai pentru a da un nume comun unui set de valori. Exemplu fundamental:
+
+O aplicaţie operează cu persoane. Dacă se folosesc variabile simple fiecare persoană trebuie să fie definită prin mai multe variabile, astfel:
+```
+   var nume = "Ionescu Clara";
+   var anNastere = 1984;
+   var CNP = "2100484123978";
+   var ocupatie = "studenta";
+```
+Pentru păstrarea celor patru valori se poate însă crea un obiect care să conţină patru câmpuri în care să fie memorate atributele persoanei. Ca şi în orice alt limbaj care suportă programarea obiectuală, şi în JavaScript un obiect este compus dintr-o mulţime de proprietăţi (câmpuri) având fiecare o denumire şi o valoare. Folosind notaţia literală se poate crea pentru cazul dat obiectul *ionescu*:
+```
+   var ionescu = {
+      nume: "Ionescu Clara",
+      anNnastere: 1984,
+      CNP: "2100484123978",
+      ocupatie: 'studenta'
+   };
+```
+Pentru a accesa separat câmpurile unui obiect se poate folosi fie notaţia `obiect.nume_câmp` fie `obiect["nume_câmp"]`. Exemple:
+```
+   var cod = ionescu.CNP;  //  sau
+   var cod = ionescu["CNP"];
+```
+A doua formă de scriere este utilizată cu precădere atunci când numele proprietăţii accesate este păstrat la rândul lui într-o variabilă. Exemplu:
+```
+   var proprietate = "anNastere";
+   var valoare = persoana[proprietate]; // valoare devine 1984
+```
+Exemplu de şir de obiecte în notaţie literală:
+```
+   var listaActiuni = [
+      {nume: "Cumparat paine", cantitate: 2, gata: false},
+      {nume: "Cumparat flori", cantitate: 1, gata: true},
+      {nume: "Platit taxa parcare", cantitate: 1, gata: false}
+    ];
+```
+
 ## Funcții
 Ca şi în alte limbaje, și în JavaScript se pot defini funcţii. Ele permit izolarea într-o unitate de program distinctă a unor secvenţe de cod independente din punct de vedere funcţional. Scopul creării lor este acela de a simplifica scrierea unor secvenţe de prelucrare complexe prin divizarea lor în unităţi mai simple, uşor de depanat, dar şi de a scrie într-un singur loc codul care trebuie executat în diferite locuri într-o aplicaţie.
 
