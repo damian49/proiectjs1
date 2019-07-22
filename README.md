@@ -695,7 +695,7 @@ Comentariile în sală...
 ## Funcții
 Ca şi în alte limbaje, și în JavaScript se pot defini funcţii. Ele permit izolarea într-o unitate de program distinctă a unor secvenţe de cod independente din punct de vedere funcţional. Scopul creării lor este acela de a simplifica scrierea unor secvenţe de prelucrare complexe prin divizarea lor în unităţi mai simple, uşor de depanat, dar şi de a scrie într-un singur loc codul care trebuie executat în diferite locuri într-o aplicaţie.
 
-Crearea unei funcţii se realizează prin declararea ei folosind cuvântul rezervat function. Corpul funcţiei va fi încadrat între acolade, '{' şi '}'. Exemplu:
+Crearea unei funcţii se realizează prin declararea ei folosind cuvântul rezervat *function*. Corpul funcţiei va fi încadrat între acolade, '{' şi '}'. Exemplu:
 ```
 function scriuPeConsola(mesaj) {
     console.log(mesaj);
